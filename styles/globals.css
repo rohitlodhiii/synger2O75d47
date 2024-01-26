@@ -1,0 +1,100 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer utilities {
+    .text-cyan-500 {
+      color: #00bcd4;
+    }
+  }
+
+input[type="range"] {
+  -webkit-appearance: none;
+  appearance: none;
+  background: transparent;
+  cursor: pointer;
+  width: 15rem;
+}
+
+input[type="range"]:focus {
+  outline: none;
+}
+
+input[type="range"]::-webkit-slider-runnable-track {
+  background-color: #053a5f;
+  border-radius: 0.5rem;
+  height: 0.5rem;
+}
+
+
+input[type="range"]::-webkit-slider-thumb {
+  -webkit-appearance: none; 
+  appearance: none;
+  margin-top: -0.3em;
+  background-color: #5cd5eb;
+  height: 1rem;
+  width: 1rem;
+  border-radius: 50%;
+}
+
+input[type="range"]:focus::-webkit-slider-thumb {
+  border: 1px solid #053a5f;
+  outline: 3px solid #053a5f;
+  outline-offset: 0.125rem;
+}
+
+
+input[type="range"]::-moz-range-track {
+  background-color: #053a5f;
+  border-radius: 0.5rem;
+  height: 0.5rem;
+}
+
+
+input[type="range"]::-moz-range-thumb {
+  border: none;
+  border-radius: 0;
+  background-color: #5cd5eb;
+  height: 2rem;
+  width: 1rem;
+}
+
+input[type="range"]:focus::-moz-range-thumb {
+  border: 1px solid #053a5f;
+  outline: 3px solid #053a5f;
+  outline-offset: 0.125rem;
+}
+.preload{
+  background-color: #000703;
+}
+.bar:nth-child(2) {
+  animation-delay: 0.2s;
+}
+.bar:nth-child(3) {
+  animation-delay: 0.4s;
+}
+.bar:nth-child(4) {
+  animation-delay: 0.6s;
+}
+.bar:nth-child(5) {
+  animation-delay: 0.8s;
+}
+.bar:nth-child(6) {
+  animation-delay: 1s;
+}
+
+.smooth-transition {
+  transition: all 0.3s ease-in-out;
+}
+.body{
+  height: 100%;
+  overflow: hidden;
+}
+
+.hide-scrollbar::-webkit-scrollbar {
+.hide-scrollbar {
+  -ms-overflow-style: none; 
+  scrollbar-width: none; 
+}
+}
+
