@@ -49,7 +49,7 @@ export default function Layout({ children }) {
   return (
 
     <>
-    {loading && <VideoPlayer videoSrc="/loader.mp4"/>}
+    {loading && <VideoPlayer videoSrc="/Loader.mp4"/>}
   {!loading&&
       <div className="relative flex flex-row w-full">
 
