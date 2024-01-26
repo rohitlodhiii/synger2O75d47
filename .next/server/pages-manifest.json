@@ -1,0 +1,17 @@
+{
+  "/_app": "pages/_app.js",
+  "/Albums": "pages/Albums.html",
+  "/Charts": "pages/Charts.html",
+  "/artist/[id]": "pages/artist/[id].html",
+  "/": "pages/index.html",
+  "/Trending": "pages/Trending.html",
+  "/album/[id]": "pages/album/[id].html",
+  "/song/[id]": "pages/song/[id].html",
+  "/playlists": "pages/playlists.html",
+  "/chart/[id]": "pages/chart/[id].html",
+  "/about": "pages/about.html",
+  "/search": "pages/search.html",
+  "/_error": "pages/_error.js",
+  "/_document": "pages/_document.js",
+  "/404": "pages/404.html"
+}
