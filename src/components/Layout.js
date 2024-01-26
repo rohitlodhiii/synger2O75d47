@@ -24,7 +24,7 @@ export default function Layout({ children }) {
         dispatch(sethomepageData(data1?.data));
         setTimeout(() => {
           setloading(false);
-        }, 5000);
+        }, 1000);
       } catch (error) {
         console.error('Error fetching data:', error);
       }

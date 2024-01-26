@@ -8,7 +8,7 @@ const Home = () => {
     return (
       <>
           <Head>
-              <title>Museboxx</title>
+              <title>SYNGER</title>
               <link rel="icon" href="/favicon.jpg" />
           </Head>
             <Trending />
