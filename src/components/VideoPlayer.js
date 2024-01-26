@@ -27,6 +27,7 @@ const VideoPlayer = ({ videoSrc }) => {
         <source src={videoSrc} type="video/mp4" />
         Your browser does not support the video tag.
       </video>
+      <h1>Loading...</h1>
       </div>
     
   );
